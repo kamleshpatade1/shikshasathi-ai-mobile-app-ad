@@ -108,7 +108,9 @@ export default function OnboardingScreen() {
 
             <TouchableOpacity
               style={styles.startButton}
-              onPress={() => router.replace("/home")}
+              onPress={() =>
+                router.replace({ pathname: "/home", params: { language } })
+              }
               activeOpacity={0.85}
               accessibilityRole="button"
             >
