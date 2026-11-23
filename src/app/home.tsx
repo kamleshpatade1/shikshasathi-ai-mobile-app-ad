@@ -1,7 +1,7 @@
 import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { StatusBar } from "expo-status-bar";
-import { useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   ScrollView,
   StyleSheet,
@@ -11,8 +11,19 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { ApiSectionStatus } from "@/components/api-section-status";
+import {
+  getColleges,
+  getCourses,
+  type College,
+  type Course,
+} from "@/services/api";
 
 type Language = "English" | "Hindi";
+type RemoteList<T> =
+  | { status: "loading" | "error" | "empty" }
+  | { status: "success"; items: T[] };
+
 type ActionCard = {
   title: string;
   description: string;
@@ -28,6 +39,14 @@ export default function HomeScreen() {
     language?: string | string[];
   }>();
   const [query, setQuery] = useState("");
+  const [colleges, setColleges] = useState<RemoteList<College>>({
+    status: "loading",
+  });
+  const [courses, setCourses] = useState<RemoteList<Course>>({
+    status: "loading",
+  });
+  const collegeRequest = useRef<AbortController | null>(null);
+  const courseRequest = useRef<AbortController | null>(null);
   const language: Language = languageParam === "Hindi" ? "Hindi" : "English";
   const isHindi = language === "Hindi";
 
@@ -40,6 +59,15 @@ export default function HomeScreen() {
         searchPlaceholder: "कॉलेज, कोर्स खोजें...",
         quickActions: "त्वरित विकल्प",
         quickActionsSubtitle: "अपनी शिक्षा यात्रा के लिए उपयोगी जानकारी पाएँ।",
+        collegesTitle: "कॉलेज",
+        coursesTitle: "कोर्स",
+        loadingColleges: "कॉलेज लोड हो रहे हैं...",
+        loadingCourses: "कोर्स लोड हो रहे हैं...",
+        collegeError: "कॉलेज लोड नहीं हो सके। अपना कनेक्शन जाँचें।",
+        courseError: "कोर्स लोड नहीं हो सके। अपना कनेक्शन जाँचें।",
+        emptyColleges: "कॉलेज की जानकारी अभी उपलब्ध नहीं है।",
+        emptyCourses: "कोर्स की जानकारी अभी उपलब्ध नहीं है।",
+        retry: "फिर प्रयास करें",
         assistantTitle: "प्रवेश में सहायता चाहिए?",
         assistantDescription:
           "कॉलेज, कोर्स, प्रवेश और छात्रवृत्ति के बारे में मार्गदर्शन के लिए ShikshaSathi AI से पूछें।",
@@ -93,6 +121,15 @@ export default function HomeScreen() {
         searchPlaceholder: "Search colleges, courses...",
         quickActions: "Quick Actions",
         quickActionsSubtitle: "Helpful tools for your education journey.",
+        collegesTitle: "Colleges",
+        coursesTitle: "Courses",
+        loadingColleges: "Loading colleges...",
+        loadingCourses: "Loading courses...",
+        collegeError: "Colleges could not be loaded. Check your connection.",
+        courseError: "Courses could not be loaded. Check your connection.",
+        emptyColleges: "College information is not available yet.",
+        emptyCourses: "Course information is not available yet.",
+        retry: "Retry",
         assistantTitle: "Need Help with Admissions?",
         assistantDescription:
           "Ask ShikshaSathi AI for guidance about colleges, courses, admissions and scholarships.",
@@ -138,6 +175,70 @@ export default function HomeScreen() {
           },
         ] as ActionCard[],
       };
+
+  const loadColleges = useCallback(() => {
+    collegeRequest.current?.abort();
+    const controller = new AbortController();
+    collegeRequest.current = controller;
+
+    void getColleges({ limit: 3 }, controller.signal)
+      .then((response) => {
+        if (!controller.signal.aborted) {
+          setColleges(
+            response.data.length > 0
+              ? { status: "success", items: response.data }
+              : { status: "empty" },
+          );
+        }
+      })
+      .catch(() => {
+        if (!controller.signal.aborted) {
+          setColleges({ status: "error" });
+        }
+      });
+  }, []);
+
+  const loadCourses = useCallback(() => {
+    courseRequest.current?.abort();
+    const controller = new AbortController();
+    courseRequest.current = controller;
+
+    void getCourses({ limit: 3 }, controller.signal)
+      .then((response) => {
+        if (!controller.signal.aborted) {
+          setCourses(
+            response.data.length > 0
+              ? { status: "success", items: response.data }
+              : { status: "empty" },
+          );
+        }
+      })
+      .catch(() => {
+        if (!controller.signal.aborted) {
+          setCourses({ status: "error" });
+        }
+      });
+  }, []);
+
+  const retryColleges = useCallback(() => {
+    setColleges({ status: "loading" });
+    loadColleges();
+  }, [loadColleges]);
+
+  const retryCourses = useCallback(() => {
+    setCourses({ status: "loading" });
+    loadCourses();
+  }, [loadCourses]);
+
+  useEffect(() => {
+    void loadColleges();
+    void loadCourses();
+
+    return () => {
+      collegeRequest.current?.abort();
+      courseRequest.current?.abort();
+    };
+  }, [loadColleges, loadCourses]);
 
   const openChat = (question: string) => {
     router.push({ pathname: "/chat", params: { question, language } });
@@ -242,6 +343,101 @@ export default function HomeScreen() {
                 </TouchableOpacity>
               ))}
             </View>
+          </View>
+
+          <View style={styles.section}>
+            <View style={styles.sectionHeading}>
+              <Text style={styles.sectionTitle}>{copy.collegesTitle}</Text>
+            </View>
+            {colleges.status === "success" ? (
+              <View style={styles.catalogList}>
+                {colleges.items.map((college) => (
+                  <View key={college._id} style={styles.catalogItem}>
+                    <View style={styles.catalogIcon}>
+                      <Ionicons
+                        name="school-outline"
+                        size={20}
+                        color="#1769CE"
+                      />
+                    </View>
+                    <View style={styles.catalogCopy}>
+                      <Text style={styles.catalogTitle} numberOfLines={2}>
+                        {college.collegeName}
+                      </Text>
+                      <Text style={styles.catalogDetail} numberOfLines={1}>
+                        {college.location}
+                      </Text>
+                      {college.description ? (
+                        <Text
+                          style={styles.catalogDescription}
+                          numberOfLines={2}
+                        >
+                          {college.description}
+                        </Text>
+                      ) : null}
+                    </View>
+                  </View>
+                ))}
+              </View>
+            ) : (
+              <ApiSectionStatus
+                status={colleges.status}
+                message={
+                  colleges.status === "loading"
+                    ? copy.loadingColleges
+                    : colleges.status === "error"
+                      ? copy.collegeError
+                      : copy.emptyColleges
+                }
+                retryLabel={copy.retry}
+                onRetry={retryColleges}
+              />
+            )}
+          </View>
+
+          <View style={styles.section}>
+            <View style={styles.sectionHeading}>
+              <Text style={styles.sectionTitle}>{copy.coursesTitle}</Text>
+            </View>
+            {courses.status === "success" ? (
+              <View style={styles.catalogList}>
+                {courses.items.map((course) => (
+                  <View key={course._id} style={styles.catalogItem}>
+                    <View style={[styles.catalogIcon, styles.courseIcon]}>
+                      <Ionicons
+                        name="book-outline"
+                        size={20}
+                        color="#16866B"
+                      />
+                    </View>
+                    <View style={styles.catalogCopy}>
+                      <Text style={styles.catalogTitle} numberOfLines={2}>
+                        {course.courseName}
+                      </Text>
+                      <Text style={styles.catalogDetail} numberOfLines={1}>
+                        {course.courseLevel} · {course.duration}
+                      </Text>
+                      <Text style={styles.catalogDescription} numberOfLines={2}>
+                        {course.eligibility}
+                      </Text>
+                    </View>
+                  </View>
+                ))}
+              </View>
+            ) : (
+              <ApiSectionStatus
+                status={courses.status}
+                message={
+                  courses.status === "loading"
+                    ? copy.loadingCourses
+                    : courses.status === "error"
+                      ? copy.courseError
+                      : copy.emptyCourses
+                }
+                retryLabel={copy.retry}
+                onRetry={retryCourses}
+              />
+            )}
           </View>
 
           <View style={styles.assistantBanner}>
@@ -394,6 +590,52 @@ const styles = StyleSheet.create({
     fontSize: 13,
     lineHeight: 19,
     marginTop: 4,
+  },
+  catalogList: {
+    gap: 10,
+  },
+  catalogItem: {
+    flexDirection: "row",
+    alignItems: "flex-start",
+    gap: 12,
+    padding: 14,
+    borderRadius: 18,
+    borderWidth: 1,
+    borderColor: "#E8EDF5",
+    backgroundColor: "#FFFFFF",
+  },
+  catalogIcon: {
+    width: 40,
+    height: 40,
+    borderRadius: 13,
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#E8F1FF",
+  },
+  courseIcon: {
+    backgroundColor: "#E7F7F2",
+  },
+  catalogCopy: {
+    flex: 1,
+    minWidth: 0,
+  },
+  catalogTitle: {
+    color: "#142B50",
+    fontSize: 14,
+    lineHeight: 19,
+    fontWeight: "800",
+  },
+  catalogDetail: {
+    color: "#64748B",
+    fontSize: 12,
+    lineHeight: 17,
+    marginTop: 3,
+  },
+  catalogDescription: {
+    color: "#64748B",
+    fontSize: 12,
+    lineHeight: 17,
+    marginTop: 5,
   },
   actionGrid: {
     flexDirection: "row",

@@ -2,9 +2,13 @@ import cors from "cors";
 import express from "express";
 import helmet from "helmet";
 import morgan from "morgan";
-import healthRouter from "./routes/health.routes.js";
 import { errorHandler } from "./middleware/error-handler.middleware.js";
 import { notFoundHandler } from "./middleware/not-found.middleware.js";
+import chatRouter from "./routes/chat.routes.js";
+import collegeRouter from "./routes/college.routes.js";
+import courseRouter from "./routes/course.routes.js";
+import healthRouter from "./routes/health.routes.js";
+import studentRouter from "./routes/student.routes.js";
 
 const app = express();
 const allowedOrigins = new Set([
@@ -25,6 +29,10 @@ app.use(morgan("dev"));
 app.use(express.json({ limit: "10kb" }));
 
 app.use("/api/health", healthRouter);
+app.use("/api/chat", chatRouter);
+app.use("/api/colleges", collegeRouter);
+app.use("/api/courses", courseRouter);
+app.use("/api/students", studentRouter);
 app.use(notFoundHandler);
 app.use(errorHandler);
 

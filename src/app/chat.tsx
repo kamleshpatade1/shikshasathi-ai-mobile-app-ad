@@ -14,6 +14,8 @@ import {
   type ScrollViewInstance,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { ApiError } from "../services/api-client";
+import { sendChatMessage } from "../services/chat-service";
 
 type Language = "English" | "Hindi";
 type Message = {
@@ -21,7 +23,7 @@ type Message = {
   role: "assistant" | "student";
   text: string;
   createdAt: Date;
-  isDemo?: boolean;
+  isError?: boolean;
 };
 
 export default function ChatScreen() {
@@ -39,8 +41,8 @@ export default function ChatScreen() {
   const copy = isHindi
     ? {
         assistantTitle: "AI Student Assistant",
-        ready: "डेमो स्क्रीन · तैयार",
-        readyLabel: "डेमो स्क्रीन तैयार है। AI सेवा कनेक्ट नहीं है।",
+        ready: "AI चैट",
+        readyLabel: "AI Student Assistant",
         back: "होम डैशबोर्ड पर वापस जाएँ",
         welcome:
           "नमस्ते! मैं शिक्षा साथी AI हूँ। मैं राजस्थान में कॉलेज, कोर्स, प्रवेश, फीस और स्कॉलरशिप की जानकारी पाने में आपकी मदद कर सकता हूँ। आप क्या जानना चाहेंगे?",
@@ -55,14 +57,17 @@ export default function ChatScreen() {
         placeholder: "अपना सवाल लिखें...",
         send: "संदेश भेजें",
         voiceHint: "वॉइस इनपुट जल्द उपलब्ध होगा।",
-        demoLabel: "डेमो जवाब",
-        demoReply:
-          "यह एक डेमो जवाब है। AI कनेक्शन अभी उपलब्ध नहीं है और अगले चरण में जोड़ा जाएगा। प्रवेश संबंधी जानकारी आधिकारिक स्रोतों से सत्यापित करें।",
+        thinking: "जवाब तैयार किया जा रहा है...",
+        errorLabel: "अभी जवाब नहीं मिल पाया",
+        connectionError:
+          "बैकएंड तक पहुँचा नहीं जा सका। फ़ोन और Mac को एक ही Wi-Fi से जोड़ें, बैकएंड चालू रखें और EXPO_PUBLIC_API_BASE_URL में localhost की जगह Mac का LAN IP रखें।",
+        errorReply:
+          "कृपया इंटरनेट जाँचकर फिर से प्रयास करें। प्रवेश संबंधी जानकारी आधिकारिक स्रोतों से सत्यापित करें।",
       }
     : {
         assistantTitle: "AI Student Assistant",
-        ready: "Demo · Ready",
-        readyLabel: "Demo screen ready. No AI service is connected.",
+        ready: "AI Chat",
+        readyLabel: "AI Student Assistant",
         back: "Back to Home Dashboard",
         welcome:
           "Namaste! I'm ShikshaSathi AI. I can help you explore colleges, courses, admissions, fees and scholarships in Rajasthan. What would you like to know?",
@@ -77,12 +82,16 @@ export default function ChatScreen() {
         placeholder: "Type your question...",
         send: "Send message",
         voiceHint: "Voice input coming soon.",
-        demoLabel: "Demo reply",
-        demoReply:
-          "This is a demo reply. AI connection is not available yet and will be added in the next milestone. Please verify admission information with official sources.",
+        thinking: "Thinking...",
+        errorLabel: "I couldn't get a reply",
+        connectionError:
+          "Can't reach the backend. Put your phone and Mac on the same Wi-Fi, keep the backend running, and use your Mac's LAN IP instead of localhost in EXPO_PUBLIC_API_BASE_URL.",
+        errorReply:
+          "Please check your internet connection and try again. Verify admission information with official sources.",
       };
 
   const [draft, setDraft] = useState("");
+  const [isSending, setIsSending] = useState(false);
   const [showVoiceHint, setShowVoiceHint] = useState(false);
   const [messages, setMessages] = useState<Message[]>(() => [
     {
@@ -96,11 +105,12 @@ export default function ChatScreen() {
   const nextMessageId = useRef(0);
   const processedQuestions = useRef(new Set<string>());
   const hasMountedRef = useRef(false);
+  const sendingRef = useRef(false);
 
   const sendMessage = useCallback(
-    (value: string) => {
+    async (value: string) => {
       const text = value.trim();
-      if (!text) return;
+      if (!text || sendingRef.current) return;
 
       const now = new Date();
       const studentMessage: Message = {
@@ -109,19 +119,45 @@ export default function ChatScreen() {
         text,
         createdAt: now,
       };
-      const demoMessage: Message = {
-        id: `demo-${nextMessageId.current++}`,
-        role: "assistant",
-        text: copy.demoReply,
-        createdAt: new Date(),
-        isDemo: true,
-      };
 
-      setMessages((current) => [...current, studentMessage, demoMessage]);
+      sendingRef.current = true;
+      setIsSending(true);
+      setMessages((current) => [...current, studentMessage]);
       setDraft("");
       setShowVoiceHint(false);
+
+      try {
+        const reply = await sendChatMessage(text, language);
+        setMessages((current) => [
+          ...current,
+          {
+            id: `assistant-${nextMessageId.current++}`,
+            role: "assistant",
+            text: reply,
+            createdAt: new Date(),
+          },
+        ]);
+      } catch (error) {
+        const errorMessage =
+          error instanceof ApiError && error.status === undefined
+            ? copy.connectionError
+            : copy.errorReply;
+        setMessages((current) => [
+          ...current,
+          {
+            id: `assistant-error-${nextMessageId.current++}`,
+            role: "assistant",
+            text: errorMessage,
+            createdAt: new Date(),
+            isError: true,
+          },
+        ]);
+      } finally {
+        sendingRef.current = false;
+        setIsSending(false);
+      }
     },
-    [copy.demoReply],
+    [copy.connectionError, copy.errorReply, language],
   );
 
   useEffect(() => {
@@ -144,9 +180,11 @@ export default function ChatScreen() {
     });
 
     return () => cancelAnimationFrame(frame);
-  }, [messages.length]);
+  }, [messages.length, isSending]);
 
-  const submitDraft = () => sendMessage(draft);
+  const submitDraft = () => {
+    void sendMessage(draft);
+  };
   const showSuggestions = !messages.some((message) => message.role === "student");
 
   return (
@@ -217,8 +255,8 @@ export default function ChatScreen() {
                     isStudent ? styles.studentBubble : styles.assistantBubble,
                   ]}
                 >
-                  {message.isDemo && (
-                    <Text style={styles.demoLabel}>{copy.demoLabel}</Text>
+                  {message.isError && (
+                    <Text style={styles.errorLabel}>{copy.errorLabel}</Text>
                   )}
                   <Text
                     style={[
@@ -246,6 +284,17 @@ export default function ChatScreen() {
             );
           })}
 
+          {isSending && (
+            <View style={[styles.messageRow, styles.assistantMessageRow]}>
+              <View style={styles.messageAvatar}>
+                <Ionicons name="sparkles" size={15} color="#1769CE" />
+              </View>
+              <View style={[styles.messageBubble, styles.assistantBubble]}>
+                <Text style={styles.messageText}>{copy.thinking}</Text>
+              </View>
+            </View>
+          )}
+
           {showSuggestions && (
             <View style={styles.suggestionsSection}>
               <Text style={styles.suggestionsTitle}>
@@ -256,7 +305,7 @@ export default function ChatScreen() {
                   <TouchableOpacity
                     key={suggestion}
                     accessibilityRole="button"
-                    onPress={() => sendMessage(suggestion)}
+                    onPress={() => void sendMessage(suggestion)}
                     style={styles.suggestion}
                   >
                     <Text style={styles.suggestionText}>{suggestion}</Text>
@@ -284,6 +333,7 @@ export default function ChatScreen() {
           <TextInput
             accessibilityLabel={copy.placeholder}
             onChangeText={setDraft}
+            editable={!isSending}
             onSubmitEditing={submitDraft}
             placeholder={copy.placeholder}
             placeholderTextColor="#94A3B8"
@@ -294,12 +344,12 @@ export default function ChatScreen() {
           <TouchableOpacity
             accessibilityRole="button"
             accessibilityLabel={copy.send}
-            accessibilityState={{ disabled: !draft.trim() }}
-            disabled={!draft.trim()}
+            accessibilityState={{ disabled: !draft.trim() || isSending }}
+            disabled={!draft.trim() || isSending}
             onPress={submitDraft}
             style={[
               styles.sendButton,
-              !draft.trim() && styles.sendButtonDisabled,
+              (!draft.trim() || isSending) && styles.sendButtonDisabled,
             ]}
           >
             <Ionicons name="send" size={18} color="#FFFFFF" />
@@ -367,7 +417,7 @@ const styles = StyleSheet.create({
     width: 7,
     height: 7,
     borderRadius: 4,
-    backgroundColor: "#D98A19",
+    backgroundColor: "#1769CE",
   },
   readyText: {
     color: "#687386",
@@ -443,12 +493,11 @@ const styles = StyleSheet.create({
   studentMessageTime: {
     color: "#DCE9FF",
   },
-  demoLabel: {
-    color: "#A65C08",
+  errorLabel: {
+    color: "#B45309",
     fontSize: 10,
     fontWeight: "800",
     marginBottom: 5,
-    textTransform: "uppercase",
   },
   suggestionsSection: {
     marginLeft: 38,

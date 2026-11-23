@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "test": "node --test",
+    "import:dte": "node scripts/import-dte-data.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

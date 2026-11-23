@@ -1,0 +1,2210 @@
+{
+  "datasetId": "rajasthan-dte-diploma-colleges",
+  "datasetStatus": "pending-human-review",
+  "accessedAt": "2026-11-23",
+  "sourceUrl": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+  "colleges": [
+    {
+      "sourceKey": "rajasthan-dte-college:gpcajmer",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Ajmer",
+        "location": "Ajmer"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Ajmer",
+        "collegeUrlSlug": "gpcajmer",
+        "district": "Ajmer",
+        "establishmentYear": "1958",
+        "addressAsPublished": "Makhupura, Nasirabad Road, Ajmer-305002",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]ajmer[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0145-2695195"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 1
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gwpcajmer",
+      "candidate": {
+        "collegeName": "GOVERNMENT WOMEN POLYTECHNIC COLLEGE, AJMER",
+        "location": "Ajmer"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT WOMEN POLYTECHNIC COLLEGE, AJMER",
+        "collegeUrlSlug": "gwpcajmer",
+        "district": "Ajmer",
+        "establishmentYear": "1988",
+        "addressAsPublished": "MAKHUPURA, AJMER",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GWPC[dot]AJMER[at]RAJASTHAN[dot]GOV[dot]IN",
+        "contactPhoneAsPublished": "0145-2695231"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 2
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:alwar",
+      "candidate": {
+        "collegeName": "Govt.women polytechnic college Alwar",
+        "location": "Alwar"
+      },
+      "verifiedFields": {
+        "collegeName": "Govt.women polytechnic college Alwar",
+        "collegeUrlSlug": "Alwar",
+        "district": "Alwar",
+        "establishmentYear": "2025",
+        "addressAsPublished": "camp office:- Govt.polytechnic college Alwar",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gwpc[dot]alwar[at]gmail[dot]com"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 3
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcbagidora",
+      "candidate": {
+        "collegeName": "Government Polytechnic College Bagidora, Banswara",
+        "location": "Banswara"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College Bagidora, Banswara",
+        "collegeUrlSlug": "gpcbagidora",
+        "district": "Banswara",
+        "establishmentYear": "1951",
+        "addressAsPublished": "Village Katariya, PO Balawara, Tehsil Bagidora, District Banswara, Rajasthan 327603",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]BAGIDORA[at]RAJASTHAN[dot]GOV[dot]IN",
+        "contactPhoneAsPublished": "8824423664"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 4
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcbanswara",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Banswara",
+        "location": "Banswara"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Banswara",
+        "collegeUrlSlug": "gpcbanswara",
+        "district": "Banswara",
+        "establishmentYear": "1992",
+        "addressAsPublished": "Opposite Mayur Mill, Lodha Banswara, 327001",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]BANSWARA[at]RAJASTHAN[dot]GOV[dot]IN",
+        "contactPhoneAsPublished": "2962254729"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 5
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcbaran",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Baran",
+        "location": "Baran"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Baran",
+        "collegeUrlSlug": "gpcbaran",
+        "district": "Baran",
+        "establishmentYear": "2010",
+        "addressAsPublished": "NH-27, Village - Batawadi, Distt. - Baran (Raj.) PIN - 325205",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]baran[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0745-3297011"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 6
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpckelwara",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Kelwara",
+        "location": "Baran"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Kelwara",
+        "collegeUrlSlug": "gpckelwara",
+        "district": "Baran",
+        "establishmentYear": "2019",
+        "addressAsPublished": "Village - Pahari, Tehsil - Shabad, District - Baran, Pin Code- 325216",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]kelwara[at]gmail[dot]com",
+        "contactPhoneAsPublished": "8079040149"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 7
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gudamalani",
+      "candidate": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE GUDAMALANI - CAMP BARMER",
+        "location": "Barmer"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE GUDAMALANI - CAMP BARMER",
+        "collegeUrlSlug": "GUDAMALANI",
+        "district": "Barmer",
+        "establishmentYear": "2025",
+        "addressAsPublished": "GOVERNMENT POLYTECHNIC COLLEGE GUDAMALANI (CAMP BARMER)",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]GUDAMALANI[at]RAJASTHAN[dot]GOV[dot]IN"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 9
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcbarmer",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Barmer",
+        "location": "Barmer"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Barmer",
+        "collegeUrlSlug": "gpcbarmer",
+        "district": "Barmer",
+        "establishmentYear": "1988",
+        "addressAsPublished": "NH-68, Jaisalmer Road, Barmer (Raj.) Pin code 344001",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]BARMER[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "02982-220634"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 10
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:beawer",
+      "candidate": {
+        "collegeName": "Govt Polytechnic College Beawer",
+        "location": "Beawar"
+      },
+      "verifiedFields": {
+        "collegeName": "Govt Polytechnic College Beawer",
+        "collegeUrlSlug": "Beawer",
+        "district": "Beawar",
+        "establishmentYear": "2025",
+        "addressAsPublished": "Camp office: Govt Polytechnic College Ajmer",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]beawar[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "1452695195"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 11
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gwpcbharatpur",
+      "candidate": {
+        "collegeName": "GOVERNMENT WOMEN POLYTECHNIC COLLEGE BHARATPUR",
+        "location": "Bharatpur"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT WOMEN POLYTECHNIC COLLEGE BHARATPUR",
+        "collegeUrlSlug": "gwpcbharatpur",
+        "district": "Bharatpur",
+        "establishmentYear": "2010",
+        "addressAsPublished": "NEAR DALMIYA DAIRY, NH-21, SEWAR ROAD",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gwpc[dot]bharatpur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0564-4297002"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 12
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcbharatpur",
+      "candidate": {
+        "collegeName": "Shri Gokul Verma Government Polytechnic College Bharatpur",
+        "location": "Bharatpur"
+      },
+      "verifiedFields": {
+        "collegeName": "Shri Gokul Verma Government Polytechnic College Bharatpur",
+        "collegeUrlSlug": "gpcbharatpur",
+        "district": "Bharatpur",
+        "establishmentYear": "1984",
+        "addressAsPublished": "Near Dalmia Dairy, Sewar Bypass Road, NH-11, Bharatpur - 321001 (Rajasthan)",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]bharatpur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0564-4297015"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 13
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcuchchain",
+      "candidate": {
+        "collegeName": "Government Polytechnic College Uchchain",
+        "location": "Bharatpur"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College Uchchain",
+        "collegeUrlSlug": "gpcuchchain",
+        "district": "Bharatpur",
+        "establishmentYear": "2021",
+        "addressAsPublished": "Campus at Shri Gokul Verma Government Polytechnic College, Bharatpur Near Dalmia Dairy, Bharatpur - 321001 (Rajasthan)",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]uchchain[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "5644297015"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 14
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:bhilwara",
+      "candidate": {
+        "collegeName": "Govt. Women Polytechnic college Bhilwara",
+        "location": "Bhilwara"
+      },
+      "verifiedFields": {
+        "collegeName": "Govt. Women Polytechnic college Bhilwara",
+        "collegeUrlSlug": "BHILWARA",
+        "district": "Bhilwara",
+        "establishmentYear": "2025",
+        "addressAsPublished": "CAMP GOVT. POLYTECHNIC COLLEGE, BHILWARA",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gwpc[dot]bhilwara[at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 15
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcbhilwara",
+      "candidate": {
+        "collegeName": "Government Polytechnic College Bhilwara",
+        "location": "Bhilwara"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College Bhilwara",
+        "collegeUrlSlug": "gpcbhilwara",
+        "district": "Bhilwara",
+        "establishmentYear": "2012",
+        "addressAsPublished": "Government Polytechnic College, Tilak nagar, Bhilwara Pin Code 311001",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]bhilwara[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0148-2250111"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 16
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcsriganganagar",
+      "candidate": {
+        "collegeName": "C.M.R.B. GOVERNMENT POLYTECHNIC COLLEGE, SRI GANGANAGAR",
+        "location": "Bikaner"
+      },
+      "verifiedFields": {
+        "collegeName": "C.M.R.B. GOVERNMENT POLYTECHNIC COLLEGE, SRI GANGANAGAR",
+        "collegeUrlSlug": "gpcsriganganagar",
+        "district": "Bikaner",
+        "establishmentYear": "0",
+        "addressAsPublished": "Jasssa Singh Road ,Bhambhu Colony, Setia Farm, Sri Ganganagar, Rajasthan 335001",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]SRIGANGANAGAR[at]RAJASTHAN[dot]GOV[dot]IN",
+        "contactPhoneAsPublished": "0154-2943900"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 17
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcalwar",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Alwar",
+        "location": "Bikaner"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Alwar",
+        "collegeUrlSlug": "gpcalwar",
+        "district": "Bikaner",
+        "establishmentYear": "1960",
+        "addressAsPublished": "Near Itarana Flyover ,Alwar- 301001",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]alwar[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0144-2701645"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 18
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcpali",
+      "candidate": {
+        "collegeName": "Government Polytechnic College Pali",
+        "location": "Bikaner"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College Pali",
+        "collegeUrlSlug": "gpcpali",
+        "district": "Bikaner",
+        "establishmentYear": "0",
+        "addressAsPublished": "Government Polytechnic College Pali, Sumerpur Road, Pali, 306401",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]pali[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "293"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 19
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcneemrana",
+      "candidate": {
+        "collegeName": "Government Polytechnic College Neemrana (Kotputli Behror)-Rajasthan",
+        "location": "Bikaner"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College Neemrana (Kotputli Behror)-Rajasthan",
+        "collegeUrlSlug": "gpcneemrana",
+        "district": "Bikaner",
+        "establishmentYear": "0",
+        "addressAsPublished": "VILLAGE KUNDANSINGH PURA TEH. Neemrana Dist. Alwar",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]neemrana[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "1494299300"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 20
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcnawa",
+      "candidate": {
+        "collegeName": "Government Polytechnic College Nawa",
+        "location": "Bikaner"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College Nawa",
+        "collegeUrlSlug": "gpcnawa",
+        "district": "Bikaner",
+        "establishmentYear": "0",
+        "addressAsPublished": "NEAR TOLL PLAZA,VILLAGE POST GOVINDI,TEHSIL NAWA,DIST DIDWANA-KUCHAMAN",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]nawa[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "1586299643"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 21
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcsirohi",
+      "candidate": {
+        "collegeName": "SGBB Government Polytechnic College Sirohi (Raj.)",
+        "location": "Bikaner"
+      },
+      "verifiedFields": {
+        "collegeName": "SGBB Government Polytechnic College Sirohi (Raj.)",
+        "collegeUrlSlug": "gpcsirohi",
+        "district": "Bikaner",
+        "establishmentYear": "2026",
+        "addressAsPublished": "Near Village Mandwa, Sirohi (Raj.)",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]sirohi[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0297-2222401"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 22
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:www-gpcdholpur-com",
+      "candidate": {
+        "collegeName": "Govt. Polytechnic College Dholpur",
+        "location": "Bikaner"
+      },
+      "verifiedFields": {
+        "collegeName": "Govt. Polytechnic College Dholpur",
+        "collegeUrlSlug": "www.gpcdholpur.com",
+        "district": "Bikaner",
+        "establishmentYear": "0",
+        "addressAsPublished": "Near NH -11B , Purani Chhawni , Dholpur , Rajasthan , 328001",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]dholpur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "9460526984"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 23
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gwpcbikaner",
+      "candidate": {
+        "collegeName": "Government Women Polytechnic College, Bikaner",
+        "location": "Bikaner"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Women Polytechnic College, Bikaner",
+        "collegeUrlSlug": "gwpcbikaner",
+        "district": "Bikaner",
+        "establishmentYear": "1988",
+        "addressAsPublished": "Dungar College Road, Sadul Ganj, Bikaner (Raj.) 334001",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gwpc[dot]bikaner[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0151-2528874"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 24
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcbikaner",
+      "candidate": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, BIKANER",
+        "location": "Bikaner"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, BIKANER",
+        "collegeUrlSlug": "gpcbikaner",
+        "district": "Bikaner",
+        "establishmentYear": "1960",
+        "addressAsPublished": "Old Shivbari Road Sadul Ganj, Bikaner Rajasthan Pin 334003",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]bikaner[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0151-2542064"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 25
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpctonk",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Tonk",
+        "location": "Bikaner"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Tonk",
+        "collegeUrlSlug": "gpctonk",
+        "district": "Bikaner",
+        "establishmentYear": "2011",
+        "addressAsPublished": "Village Borkhandi Khurd Near Banas Bridge Jaipur Road Tonk 304021",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]tonk[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "9460986360"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 26
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcindergarh",
+      "candidate": {
+        "collegeName": "GOVT.POLYTECHNIC COLLEGE, INDERGARH",
+        "location": "Bundi"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVT.POLYTECHNIC COLLEGE, INDERGARH",
+        "collegeUrlSlug": "GPCIndergarh",
+        "district": "Bundi",
+        "establishmentYear": "2025",
+        "addressAsPublished": "CAMP OFFICE: GOVT.POLYTECHNIC COLLEGE, BUNDI",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]indergarh[at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 27
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcbundi",
+      "candidate": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE BUNDI",
+        "location": "Bundi"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE BUNDI",
+        "collegeUrlSlug": "gpcbundi",
+        "district": "Bundi",
+        "establishmentYear": "2014",
+        "addressAsPublished": "Government Polytechnic College, Gram- Daulatpura, District- Bundi, Pin-323001, Rajasthan",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]bundi[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0747-2970021"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 28
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcchittorgarh",
+      "candidate": {
+        "collegeName": "Government Polytechnic College Chittorgarh",
+        "location": "Chittorgarh"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College Chittorgarh",
+        "collegeUrlSlug": "gpcchittorgarh",
+        "district": "Chittorgarh",
+        "establishmentYear": "1988",
+        "addressAsPublished": "Village-Bojunda Udaipur Road Chittorgarh-312025",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]chittorgarh[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0147-2240992"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 29
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcchuru",
+      "candidate": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, CHURU",
+        "location": "Churu"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, CHURU",
+        "collegeUrlSlug": "gpcchuru",
+        "district": "Churu",
+        "establishmentYear": "2005",
+        "addressAsPublished": "INDUSTRIAL AREA, ROAD NO. 5, HANUMANGARI ROAD, CHURU. PIN NO.-331001",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]churu[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0156-2257794"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 30
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcdausa",
+      "candidate": {
+        "collegeName": "Rajesh Pilot Government Polytechnic College, Dausa",
+        "location": "Dausa"
+      },
+      "verifiedFields": {
+        "collegeName": "Rajesh Pilot Government Polytechnic College, Dausa",
+        "collegeUrlSlug": "gpcdausa",
+        "district": "Dausa",
+        "establishmentYear": "2013",
+        "addressAsPublished": "JIROTA KHURD ROAD,DAUSA, Pin Code-303303,Office Contact No-9414240680",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]DAUSA[at]RAJASTHAN[dot]GOV[dot]IN",
+        "contactPhoneAsPublished": "9414240680"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 31
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:bandikui",
+      "candidate": {
+        "collegeName": "Govt Polytechnic College Bandikui Camp-Dausa",
+        "location": "Dausa"
+      },
+      "verifiedFields": {
+        "collegeName": "Govt Polytechnic College Bandikui Camp-Dausa",
+        "collegeUrlSlug": "Bandikui",
+        "district": "Dausa",
+        "establishmentYear": "2025",
+        "addressAsPublished": "Camp Office : Rajesh Pilot Govt Polytechnic College Dausa",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]bandikui[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "NA"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 32
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:deeg",
+      "candidate": {
+        "collegeName": "GOVT.POLYTECHNIC COLLEGE, DEEG",
+        "location": "Deeg"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVT.POLYTECHNIC COLLEGE, DEEG",
+        "collegeUrlSlug": "DEEG",
+        "district": "Deeg",
+        "establishmentYear": "2025",
+        "addressAsPublished": "CAMP OFFICE: GOVT.POLYTECHNIC COLLEGE, bharatpur",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]deeg[at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 33
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcdungarpur",
+      "candidate": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE DUNGARPUR",
+        "location": "Dungarpur"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE DUNGARPUR",
+        "collegeUrlSlug": "gpcdungarpur",
+        "district": "Dungarpur",
+        "establishmentYear": "2010",
+        "addressAsPublished": "VILLAGE-DEVAL,DIST-DUNGARPUR",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]dungarpur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "6414364351"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 34
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpchanumangarh",
+      "candidate": {
+        "collegeName": "Government Polytechnic College Hanumangarh",
+        "location": "Hanumangarh"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College Hanumangarh",
+        "collegeUrlSlug": "gpchanumangarh",
+        "district": "Hanumangarh",
+        "establishmentYear": "2013",
+        "addressAsPublished": "Sangaria By-Pass, Near DIET or Kendriya Vidyalaya, Hanumangarh Junction-335512",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]hanumangarh[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0155-2260044"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 35
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gwpcsanganer",
+      "candidate": {
+        "collegeName": "GOVERNMENT WOMEN POLYTECHNIC COLLEGE , SANGANER",
+        "location": "Jaipur"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT WOMEN POLYTECHNIC COLLEGE , SANGANER",
+        "collegeUrlSlug": "gwpcsanganer",
+        "district": "Jaipur",
+        "establishmentYear": "2006",
+        "addressAsPublished": "SECTOR -8 , HALDI GHATI MARG, PRATAP NAGAR , SANGANER , JAIPUR , RAJASTHAN -302033",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gwpc[dot]sanganer[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0141-2791411"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 36
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:phagi",
+      "candidate": {
+        "collegeName": "government polytechnic college phagi dudu camp khetan jaipur",
+        "location": "Jaipur"
+      },
+      "verifiedFields": {
+        "collegeName": "government polytechnic college phagi dudu camp khetan jaipur",
+        "collegeUrlSlug": "phagi",
+        "district": "Jaipur",
+        "establishmentYear": "2025",
+        "addressAsPublished": "camp office RC Khetan Ploytechnic College Jhanlana dungri jaipur",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]phagi[at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 37
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gwpcjaipur",
+      "candidate": {
+        "collegeName": "Government Women Polytechnic College Gandhinagar Jaipur",
+        "location": "Jaipur"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Women Polytechnic College Gandhinagar Jaipur",
+        "collegeUrlSlug": "gwpcjaipur",
+        "district": "Jaipur",
+        "establishmentYear": "1981",
+        "addressAsPublished": "GANDHI CIRCLE, GANDHI NAGAR, JAIPUR",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gwpc[dot]jaipur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0141-2706688"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 38
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcjaipur",
+      "candidate": {
+        "collegeName": "Government Ram Chandra Khaitan Polytechnic College Jaipur",
+        "location": "Jaipur"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Ram Chandra Khaitan Polytechnic College Jaipur",
+        "collegeUrlSlug": "gpcjaipur",
+        "district": "Jaipur",
+        "establishmentYear": "1978",
+        "addressAsPublished": "Jhalana Institutionl Area, Near RTO Office",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]jaipur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0141-2707829"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 39
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gecjaipur",
+      "candidate": {
+        "collegeName": "Government Engineering College Jaipur",
+        "location": "Jaipur"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Engineering College Jaipur",
+        "collegeUrlSlug": "gecjaipur",
+        "district": "Jaipur",
+        "establishmentYear": "2023",
+        "addressAsPublished": "Government Engineering College, Government R.C. Khaitan Polytechnic College Campus Jaipur",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "principal[dot]gecjpr[at]gmail[dot]com",
+        "contactPhoneAsPublished": "1412993598"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 40
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcjaisalmer",
+      "candidate": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, JAISALMER",
+        "location": "Jaisalmer"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, JAISALMER",
+        "collegeUrlSlug": "gpcjaisalmer",
+        "district": "Jaisalmer",
+        "establishmentYear": "2010",
+        "addressAsPublished": "NEAR CENTRAL JAIL RAMGARH ROAD JAISALMER 345001 RAJASTHAN",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]JAISALMER[at]RAJASTHAN[dot]GOV[dot]IN",
+        "contactPhoneAsPublished": "02992-251500"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 41
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcjalore",
+      "candidate": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, JALORE",
+        "location": "Jalore"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, JALORE",
+        "collegeUrlSlug": "gpcjalore",
+        "district": "Jalore",
+        "establishmentYear": "2011",
+        "addressAsPublished": "Government Polytechnic College, Jalore, Ahore Road, Godan, Jalore-307029",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]jalore[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "8058139685"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 42
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcjhalawar",
+      "candidate": {
+        "collegeName": "Government Polytechnic College RIICO Industrial Area Jhalawar",
+        "location": "Jhalawar"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College RIICO Industrial Area Jhalawar",
+        "collegeUrlSlug": "gpcjhalawar",
+        "district": "Jhalawar",
+        "establishmentYear": "2006",
+        "addressAsPublished": "RIICO INDUSTRIAL AREA NEAR INDUSTRIAL TRAINING INSTITUTE JHALAWAR-326001",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]jhalawar[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "7432-233282"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 43
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcjhunjhunu",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Jhunjhunu",
+        "location": "Jhunjhunu"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Jhunjhunu",
+        "collegeUrlSlug": "gpcjhunjhunu",
+        "district": "Jhunjhunu",
+        "establishmentYear": "2013",
+        "addressAsPublished": "Abusar Ka Bas, Mandawa Road, Jhunjhunu (Rajasthan). PIN-333001",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]jhunjhunu[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0159-2297007"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 44
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcpilani",
+      "candidate": {
+        "collegeName": "GOVT. POLYTECHNIC COLLEGE PILANI",
+        "location": "Jhunjhunu"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVT. POLYTECHNIC COLLEGE PILANI",
+        "collegeUrlSlug": "gpcpilani",
+        "district": "Jhunjhunu",
+        "establishmentYear": "2021",
+        "addressAsPublished": "Govt. Polytechnic College Pilani ( GPC jhunjhunu)",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]PILANI2021[at]RAJASTHAN[dot]GOV[dot]IN",
+        "contactPhoneAsPublished": "8233650466"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 45
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:balotra",
+      "candidate": {
+        "collegeName": "GOVT. POLYTECHNIC COLLEGE, BALOTRA",
+        "location": "Jodhpur"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVT. POLYTECHNIC COLLEGE, BALOTRA",
+        "collegeUrlSlug": "BALOTRA",
+        "district": "Jodhpur",
+        "establishmentYear": "2025",
+        "addressAsPublished": "CAMP GOVT. POLYTECHNIC COLLEGE, JODHPUR",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]balotra[at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 46
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gwpcjodhpur",
+      "candidate": {
+        "collegeName": "Government Residential Women Polytechnic College, Jodhpur",
+        "location": "Jodhpur"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Residential Women Polytechnic College, Jodhpur",
+        "collegeUrlSlug": "gwpcjodhpur",
+        "district": "Jodhpur",
+        "establishmentYear": "1991",
+        "addressAsPublished": "GAURAV PATH, RESIDENCY ROAD , JODHPUR",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "PRINCIPAL[dot]GWPC[dot]JDH[at]RAJASTHAN[dot]GOV[dot]IN",
+        "contactPhoneAsPublished": "0291-2434187"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 47
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:ttcjodhpur",
+      "candidate": {
+        "collegeName": "Teachers Training Center and Learning Resource Development Center",
+        "location": "Jodhpur"
+      },
+      "verifiedFields": {
+        "collegeName": "Teachers Training Center and Learning Resource Development Center",
+        "collegeUrlSlug": "ttcjodhpur",
+        "district": "Jodhpur",
+        "establishmentYear": "1991",
+        "addressAsPublished": "Hostel No 3 and 4 Polytechnic College campus Residency Road Jodhpur Rajasthan 342001",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "ttc[dot]jodhpur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0291-2431072"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 48
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcjodhpur",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Jodhpur",
+        "location": "Jodhpur"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Jodhpur",
+        "collegeUrlSlug": "gpcjodhpur",
+        "district": "Jodhpur",
+        "establishmentYear": "1951",
+        "addressAsPublished": "Residency Road Jodhpur",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]jodhpur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0291-2649439"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 49
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcmandore",
+      "candidate": {
+        "collegeName": "Government Polytechnic College Mandore",
+        "location": "Jodhpur"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College Mandore",
+        "collegeUrlSlug": "gpcmandore",
+        "district": "Jodhpur",
+        "establishmentYear": "2021",
+        "addressAsPublished": "Residency Road",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]mandore[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "2912649439"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 50
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpckaroli",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Karauli",
+        "location": "Karauli"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Karauli",
+        "collegeUrlSlug": "gpckaroli",
+        "district": "Karauli",
+        "establishmentYear": "2011",
+        "addressAsPublished": "Behind Govt. PG College,Near Kendriya Vidyalaya, karauli.(322241)",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]karoli[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0144-2701645"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 51
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:bhiwadi",
+      "candidate": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE BHIWADI",
+        "location": "Khairthal-Tijara"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE BHIWADI",
+        "collegeUrlSlug": "BHIWADI",
+        "district": "Khairthal-Tijara",
+        "establishmentYear": "2025",
+        "addressAsPublished": "CAMP OFFICE: GOVT.POLYTECHNIC COLLEGE, NEEMRANA",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpcbhiwadi[dot]tizara[at]gmail[dot]com"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 52
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gwpctapukara",
+      "candidate": {
+        "collegeName": "GOVT. WOMEN POLYTECHNIC COLLEGE, TAPUKARA",
+        "location": "Khairthal-Tijara"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVT. WOMEN POLYTECHNIC COLLEGE, TAPUKARA",
+        "collegeUrlSlug": "GWPCTapukara",
+        "district": "Khairthal-Tijara",
+        "establishmentYear": "2025",
+        "addressAsPublished": "Jhiwana Road, Tapukara, Khairthal-Tijara",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gwpc[dot]tapukara[at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 53
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:ladpura",
+      "candidate": {
+        "collegeName": "GOVT. POLYTECHNIC COLLEGE LADPURA",
+        "location": "Kota"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVT. POLYTECHNIC COLLEGE LADPURA",
+        "collegeUrlSlug": "LADPURA",
+        "district": "Kota",
+        "establishmentYear": "2025",
+        "addressAsPublished": "camp office Govt polytechnic college kota",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]ladpura[at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 54
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcramganjmandi",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, RAMGANJMANDI",
+        "location": "Kota"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, RAMGANJMANDI",
+        "collegeUrlSlug": "GPCRamganjmandi",
+        "district": "Kota",
+        "establishmentYear": "2025",
+        "addressAsPublished": "CAMP OFFICE : GOVT.POLYTECHNIC COLLEGE JHALAWAR",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]RAMGANJMANDI[at]RAJASTHAN[dot]GOV[dot]IN"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 55
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpckanwaas",
+      "candidate": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE KANWAAS",
+        "location": "Kota"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE KANWAAS",
+        "collegeUrlSlug": "GPCKanwaas",
+        "district": "Kota",
+        "establishmentYear": "2025",
+        "addressAsPublished": "CAMP GPC BARAN, NH27 VILLAGE BATAWADI, DISTRICT BARAN",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]KANWAAS[at]RAJASTHAN[dot]GOV[dot]IN"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 56
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpckota",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Kota (Rajasthan)",
+        "location": "Kota"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Kota (Rajasthan)",
+        "collegeUrlSlug": "gpckota",
+        "district": "Kota",
+        "establishmentYear": "1959",
+        "addressAsPublished": "DCM Road, Kota (Rajasthan), India, Pin-324007",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]KOTA[at]RAJASTHAN[dot]GOV[dot]IN",
+        "contactPhoneAsPublished": "0744-2365538"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 57
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gwpckota",
+      "candidate": {
+        "collegeName": "Government Women Polytechnic College, Kota",
+        "location": "Kota"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Women Polytechnic College, Kota",
+        "collegeUrlSlug": "gwpckota",
+        "district": "Kota",
+        "establishmentYear": "1993",
+        "addressAsPublished": "GOVT. WOMEN POLYTECHNIC COLLEGE BEHIND MAHESHWARI BHAWAN VIGYAN NAGAR JHALAWAR ROAD - KOTA - RAJASTHAN, Pin - 324005",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gwpc[dot]kota[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0744-2420313"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 58
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcnagaur",
+      "candidate": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, NAGAUR",
+        "location": "Nagaur"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, NAGAUR",
+        "collegeUrlSlug": "gpcnagaur",
+        "district": "Nagaur",
+        "establishmentYear": "2013",
+        "addressAsPublished": "BEHIND DTO , RIICO INDUSTRIAL AREA, BALWA ROAD, NAGAUR",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]nagaur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0158-2247505"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 59
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:nagaur",
+      "candidate": {
+        "collegeName": "Govt. Polytechnic College, Merta City Camp-Nagaur",
+        "location": "Nagaur"
+      },
+      "verifiedFields": {
+        "collegeName": "Govt. Polytechnic College, Merta City Camp-Nagaur",
+        "collegeUrlSlug": "Nagaur",
+        "district": "Nagaur",
+        "establishmentYear": "2025",
+        "addressAsPublished": "camp office : Govt.Polytechnic college, Nagaur",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]merta[at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 60
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcmarwarjunction",
+      "candidate": {
+        "collegeName": "GOVT. POLYTECHNIC COLLEGE MARWAR JUNCTION",
+        "location": "Pali"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVT. POLYTECHNIC COLLEGE MARWAR JUNCTION",
+        "collegeUrlSlug": "GPCMarwarJunction",
+        "district": "Pali",
+        "establishmentYear": "2025",
+        "addressAsPublished": "CAMP OFFICE :Govt. Polytechnic College Pali",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]marwarjn[at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 61
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcphalodi",
+      "candidate": {
+        "collegeName": "GOVT.POLYTECHNIC COLLEGE, PHALODI",
+        "location": "Phalodi"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVT.POLYTECHNIC COLLEGE, PHALODI",
+        "collegeUrlSlug": "GPCPhalodi",
+        "district": "Phalodi",
+        "establishmentYear": "2025",
+        "addressAsPublished": "CAMP OFFICE: GOVT.POLYTECHNIC COLLEGE, BIKANER",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "GPC[dot]PHALODI[at]RAJASTHAN[dot]GOV[dot]IN"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 62
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcpratapgarp",
+      "candidate": {
+        "collegeName": "Government Polytechnic College Pratapgarh",
+        "location": "Pratapgarh"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College Pratapgarh",
+        "collegeUrlSlug": "gpcpratapgarp",
+        "district": "Pratapgarh",
+        "establishmentYear": "2010",
+        "addressAsPublished": "Dhariyawad Road , Near Police Line, Pratapgarh - 312605",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]pratapgarh[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "9785541733"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 63
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcrajsamand",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Rajsamand",
+        "location": "Rajsamand"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Rajsamand",
+        "collegeUrlSlug": "gpcrajsamand",
+        "district": "Rajsamand",
+        "establishmentYear": "2006",
+        "addressAsPublished": "Opposite Mecson Marble, N. H.- 8, Village- Jawad, Rajsamand- 313324",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]rajsamand[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0295-2221197"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 64
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcsalumbar",
+      "candidate": {
+        "collegeName": "GOVT.POLYTECHNIC COLLEGE, SALUMBAR",
+        "location": "Salumbar"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVT.POLYTECHNIC COLLEGE, SALUMBAR",
+        "collegeUrlSlug": "GPCSalumbar",
+        "district": "Salumbar",
+        "establishmentYear": "2025",
+        "addressAsPublished": "CAMP OFFICE: GOVT.POLYTECHNIC COLLEGE, DUNGARPUR",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]salumbar[at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 65
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcsawaimadhopur",
+      "candidate": {
+        "collegeName": "GOVT. POLYTECHNIC COLLEGE SAWAI MADHOPUR",
+        "location": "Sawai Madhopur"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVT. POLYTECHNIC COLLEGE SAWAI MADHOPUR",
+        "collegeUrlSlug": "gpcsawaimadhopur",
+        "district": "Sawai Madhopur",
+        "establishmentYear": "1988",
+        "addressAsPublished": "GOVT POLYTECHNIC COLLEGE, THINGLA, SAWAI MADHOPUR",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]smadhopur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "7462220891"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 66
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcsikar",
+      "candidate": {
+        "collegeName": "Government Polytechnic College,Sikar",
+        "location": "Sikar"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College,Sikar",
+        "collegeUrlSlug": "gpcsikar",
+        "district": "Sikar",
+        "establishmentYear": "2006",
+        "addressAsPublished": "Jaipur Bikaner By-Pass, Chandpura Via - Bajajgram,Sikar-332021",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]sikar[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "01572-274020"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 67
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gwpcsikar",
+      "candidate": {
+        "collegeName": "Government Women Polytechnic College, Sikar",
+        "location": "Sikar"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Women Polytechnic College, Sikar",
+        "collegeUrlSlug": "GWPCSikar",
+        "district": "Sikar",
+        "establishmentYear": "2025",
+        "addressAsPublished": "Camp GPC Sikar, Jaipur-Bikaner bypass, Chandpura",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gwpc[dot]sikar[at]gmail[dot]com"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 68
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcniwai",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Niwai",
+        "location": "Tonk"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Niwai",
+        "collegeUrlSlug": "GPCNiwai",
+        "district": "Tonk",
+        "establishmentYear": "2025",
+        "addressAsPublished": "Camp Office: Government Polytechnic College, Tonk",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]niwai[at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 69
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcvallabhnagar",
+      "candidate": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, VALLABHNAGAR",
+        "location": "Udaipur"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT POLYTECHNIC COLLEGE, VALLABHNAGAR",
+        "collegeUrlSlug": "GPCVallabhnagar",
+        "district": "Udaipur",
+        "establishmentYear": "2025",
+        "addressAsPublished": "CAMP GPC, UDAIPUR",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc Vallabhnagar [at]rajasthan[dot]gov[dot]in"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates",
+        "contactPhoneAsPublished"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 70
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gpcudaipur",
+      "candidate": {
+        "collegeName": "Government Polytechnic College, Udaipur",
+        "location": "Udaipur"
+      },
+      "verifiedFields": {
+        "collegeName": "Government Polytechnic College, Udaipur",
+        "collegeUrlSlug": "gpcudaipur",
+        "district": "Udaipur",
+        "establishmentYear": "2018",
+        "addressAsPublished": "Revenue Village-Jogi Talab, South Ext. Scheme, Udaipur . Office no- 8560905817",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gpc[dot]udaipur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "9829744932"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 71
+      }
+    },
+    {
+      "sourceKey": "rajasthan-dte-college:gwpcudaipur",
+      "candidate": {
+        "collegeName": "GOVERNMENT WOMEN POLYTECHNIC COLLEGE UDAIPUR",
+        "location": "Udaipur"
+      },
+      "verifiedFields": {
+        "collegeName": "GOVERNMENT WOMEN POLYTECHNIC COLLEGE UDAIPUR",
+        "collegeUrlSlug": "gwpcudaipur",
+        "district": "Udaipur",
+        "establishmentYear": "1986",
+        "addressAsPublished": "PRATAPNAGAR UDAIPUR",
+        "collegeType": "CoEd",
+        "listedCourseType": "Diploma",
+        "contactEmailAsPublished": "gwpc[dot]udaipur[at]rajasthan[dot]gov[dot]in",
+        "contactPhoneAsPublished": "0294-2491575"
+      },
+      "unavailableFields": [
+        "courseBranches",
+        "courseDuration",
+        "courseSpecificEligibility",
+        "currentAdmissionDates"
+      ],
+      "verificationStatus": "official-source-listed-not-independently-cross-checked",
+      "source": {
+        "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+        "accessedAt": "2026-11-23",
+        "pageLastUpdated": "2026-10-15",
+        "row": 72
+      }
+    }
+  ],
+  "courses": []
+}

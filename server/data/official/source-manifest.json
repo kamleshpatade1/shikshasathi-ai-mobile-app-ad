@@ -1,0 +1,123 @@
+{
+  "datasetId": "rajasthan-dte-diploma-colleges",
+  "datasetStatus": "pending-human-review",
+  "accessedAt": "2026-11-23",
+  "sources": [
+    {
+      "id": "dte-college-list",
+      "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/91469",
+      "accessedAt": "2026-11-23",
+      "pageLastUpdated": "2026-10-15",
+      "extractedFields": [
+        "college name",
+        "college URL slug",
+        "district",
+        "establishment year",
+        "contact email and phone as displayed",
+        "address/contact text",
+        "college type",
+        "listed course type"
+      ],
+      "coverage": "72 data rows; 71 unique rows after removing one exact duplicate.",
+      "limitations": [
+        "The college URL column contains a slug, not a complete URL.",
+        "Course Type is listed as Diploma; the page does not identify individual branches, duration, or course-specific eligibility.",
+        "College type values are preserved verbatim, including CoEd values for entries whose names include Women Polytechnic.",
+        "Values are verified as published on this official page, not independently confirmed with each college."
+      ]
+    },
+    {
+      "id": "dte-first-year-admissions",
+      "url": "https://hte.rajasthan.gov.in/DepartmentofTechnicalEducation/31012",
+      "accessedAt": "2026-11-23",
+      "pageLastUpdated": "2026-10-15",
+      "extractedFields": [
+        "published admission-document links",
+        "admission cycle label"
+      ],
+      "linkedDocuments": [
+        {
+          "title": "Diploma Admission Process (Admission 2026-27)",
+          "url": "https://hte.rajasthan.gov.in/Website/DepartmentofTechnicalEducation/CONTENTFILES/0ae58d0b-d2bf-4fb0-bccc-1a36db149724.pdf",
+          "accessedAt": "2026-11-23",
+          "use": "Referenced as a 2026-27 process document; its image-based content was not used for college or course field values."
+        },
+        {
+          "title": "Booklet-2026",
+          "url": "https://hte.rajasthan.gov.in/Website/DepartmentofTechnicalEducation/CONTENTFILES/86d48f88-a443-40a9-be6c-5ab51deda5dd.pdf",
+          "accessedAt": "2026-11-23",
+          "use": "Used only for the general first-year diploma eligibility and age-limit notes listed below."
+        }
+      ],
+      "limitations": [
+        "The page and linked documents refer to the 2026-27 admission cycle.",
+        "No admission dates from this cycle are imported or represented as current."
+      ]
+    },
+    {
+      "id": "dap-student-home",
+      "url": "https://daprajasthan.co.in/Student/StudentHome/Index",
+      "accessedAt": "2026-11-23",
+      "titleObserved": "DAP-2026",
+      "extractedFields": [
+        "publicly shown registration, application, and college-choice workflow"
+      ],
+      "limitations": [
+        "The publicly accessible page does not provide a college-by-branch catalog, course duration, or course-specific eligibility.",
+        "No current admission deadline was established from this page."
+      ]
+    }
+  ],
+  "verifiedAdmissionFactsNotMappedToCourseRecords": [
+    {
+      "field": "firstYearDiplomaEligibility",
+      "value": "The 2026-27 booklet states that an applicant must pass the Rajasthan Board of Secondary Education secondary examination or an equivalent examination.",
+      "scope": "General first-year diploma engineering admission eligibility in the 2026-27 booklet; not independently verified for every course or later admission cycle.",
+      "sourceUrl": "https://hte.rajasthan.gov.in/Website/DepartmentofTechnicalEducation/CONTENTFILES/86d48f88-a443-40a9-be6c-5ab51deda5dd.pdf"
+    },
+    {
+      "field": "ageLimit",
+      "value": "The 2026-27 booklet states that there is no age limit for admission.",
+      "scope": "The 2026-27 admission cycle only.",
+      "sourceUrl": "https://hte.rajasthan.gov.in/Website/DepartmentofTechnicalEducation/CONTENTFILES/86d48f88-a443-40a9-be6c-5ab51deda5dd.pdf"
+    }
+  ],
+  "crossCheck": {
+    "collegeRecords": "Each candidate is directly listed on the DTE college page. The supplied admissions and DAP public pages do not expose a second college roster, so individual college names and details could not be independently cross-checked against them.",
+    "courseRecords": "No individual course/branch records were available in the supplied public source pages to cross-check."
+  },
+  "unavailableFields": {
+    "courseBranch": "The college list identifies only the general course type Diploma; no individual branches are listed in the supplied public pages.",
+    "courseDuration": "No course-specific duration was available in the supplied public pages.",
+    "courseSpecificEligibility": "The booklet contains a general first-year diploma eligibility statement, but no course-by-course eligibility values.",
+    "currentAdmissionDates": "The pages expose 2026-27 cycle material last updated 2026-10-15. No dates from that cycle are carried into the import dataset or treated as current."
+  },
+  "recordCounts": {
+    "sourceRows": 72,
+    "uniqueCollegeCandidates": 71,
+    "exactDuplicateRowsRemoved": 1,
+    "courseCandidates": 0
+  },
+  "duplicateRows": [
+    {
+      "collegeSlug": "gpckelwara",
+      "collegeName": "Government Polytechnic College, Kelwara",
+      "district": "Baran",
+      "retainedDataRow": 7,
+      "duplicateDataRow": 8,
+      "action": "Kept one copy; both source rows were otherwise identical."
+    }
+  ],
+  "schemaMapping": {
+    "College": {
+      "collegeName": "Directly from the DTE college listing.",
+      "location": "Directly from the DTE district column.",
+      "description": "Left empty because the existing schema has no dedicated address/type/year fields; the source values are preserved in provenance.",
+      "courses": "Empty because no individual branch records were available."
+    },
+    "Course": {
+      "records": "None prepared. Course model fields require a verified course name, level, duration, and eligibility; the supplied sources do not provide a complete course-specific record."
+    },
+    "provenance": "A separate non-API collection stores each source URL, access date, source row, published field values, and unavailable-field list without changing College or Course API response shapes."
+  }
+}
