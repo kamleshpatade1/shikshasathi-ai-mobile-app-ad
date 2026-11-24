@@ -58,7 +58,7 @@ export default function ChatScreen() {
         send: "संदेश भेजें",
         voiceHint: "वॉइस इनपुट जल्द उपलब्ध होगा।",
         thinking: "जवाब तैयार किया जा रहा है...",
-        errorLabel: "अभी जवाब नहीं मिल पाया",
+        errorLabel: "AI सहायक अभी उपलब्ध नहीं है",
         connectionError:
           "बैकएंड तक पहुँचा नहीं जा सका। फ़ोन और Mac को एक ही Wi-Fi से जोड़ें, बैकएंड चालू रखें और EXPO_PUBLIC_API_BASE_URL में localhost की जगह Mac का LAN IP रखें।",
         errorReply:
@@ -83,7 +83,7 @@ export default function ChatScreen() {
         send: "Send message",
         voiceHint: "Voice input coming soon.",
         thinking: "Thinking...",
-        errorLabel: "I couldn't get a reply",
+        errorLabel: "AI assistant unavailable",
         connectionError:
           "Can't reach the backend. Put your phone and Mac on the same Wi-Fi, keep the backend running, and use your Mac's LAN IP instead of localhost in EXPO_PUBLIC_API_BASE_URL.",
         errorReply:
@@ -141,6 +141,8 @@ export default function ChatScreen() {
         const errorMessage =
           error instanceof ApiError && error.status === undefined
             ? copy.connectionError
+            : error instanceof ApiError && error.status === 502
+              ? error.message
             : copy.errorReply;
         setMessages((current) => [
           ...current,
