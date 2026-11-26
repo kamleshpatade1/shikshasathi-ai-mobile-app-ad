@@ -22,7 +22,7 @@ type Message = {
   id: string;
   role: "assistant" | "student";
   text: string;
-  createdAt: Date;
+  createdAt: Date | null;
   isError?: boolean;
 };
 
@@ -98,7 +98,7 @@ export default function ChatScreen() {
       id: "welcome",
       role: "assistant",
       text: copy.welcome,
-      createdAt: new Date(),
+      createdAt: null,
     },
   ]);
   const scrollRef = useRef<ScrollViewInstance>(null);
@@ -106,6 +106,20 @@ export default function ChatScreen() {
   const processedQuestions = useRef(new Set<string>());
   const hasMountedRef = useRef(false);
   const sendingRef = useRef(false);
+
+  useEffect(() => {
+    const frame = requestAnimationFrame(() => {
+      setMessages((current) =>
+        current.map((message) =>
+          message.id === "welcome" && message.createdAt === null
+            ? { ...message, createdAt: new Date() }
+            : message,
+        ),
+      );
+    });
+
+    return () => cancelAnimationFrame(frame);
+  }, []);
 
   const sendMessage = useCallback(
     async (value: string) => {
@@ -233,7 +247,7 @@ export default function ChatScreen() {
         >
           {messages.map((message) => {
             const isStudent = message.role === "student";
-            const time = message.createdAt.toLocaleTimeString(
+            const time = message.createdAt?.toLocaleTimeString(
               isHindi ? "hi-IN" : "en-IN",
               { hour: "numeric", minute: "2-digit" },
             );
@@ -268,14 +282,16 @@ export default function ChatScreen() {
                   >
                     {message.text}
                   </Text>
-                  <Text
-                    style={[
-                      styles.messageTime,
-                      isStudent && styles.studentMessageTime,
-                    ]}
-                  >
-                    {time}
-                  </Text>
+                  {time && (
+                    <Text
+                      style={[
+                        styles.messageTime,
+                        isStudent && styles.studentMessageTime,
+                      ]}
+                    >
+                      {time}
+                    </Text>
+                  )}
                 </View>
                 {isStudent && (
                   <View style={[styles.messageAvatar, styles.studentAvatar]}>

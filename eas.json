@@ -12,7 +12,7 @@
     "preview": {
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_API_BASE_URL": "http://10.7.31.22:5051"
+        "EXPO_PUBLIC_API_BASE_URL": "http://10.7.31.22:5051/api"
       },
       "android": {
         "buildType": "apk"
@@ -21,7 +21,7 @@
     "production": {
       "autoIncrement": true,
       "env": {
-        "EXPO_PUBLIC_API_BASE_URL": "http://10.7.31.22:5051"
+        "EXPO_PUBLIC_API_BASE_URL": "http://10.7.31.22:5051/api"
       }
     }
   },

@@ -1,3 +1,4 @@
+
 {
   "expo": {
     "name": "shikshasathi-ai",
@@ -32,6 +33,14 @@
           "backgroundColor": "#208AEF",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
         }
       ]
     ],

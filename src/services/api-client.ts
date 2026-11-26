@@ -33,7 +33,7 @@ function getBaseUrl() {
     );
   }
 
-  return baseUrl;
+  return /\/api$/i.test(baseUrl) ? baseUrl : `${baseUrl}/api`;
 }
 
 function isRecord(value: unknown): value is Record<string, unknown> {
